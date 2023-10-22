@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  webcolorblue:
+    image: leonardo/web-color:blue
+    ports:
+      - "8080:80"
+  webcolorgreen:
+    image: leonardo/web-color:green
+    ports:
+      - "8081:80"
+  conversaotemperatura01:
+    image: leonardo/conversao-temperatura:v1
+    ports:
+      - "8082:8080"
+  conversaotemperatura02:
+    image: leonardo/conversao-temperatura:v2
+    ports:
+      - "8083:8080"
+  conversaotemperatura03:
+    image: leonardo/conversao-temperatura:v3
+    ports:
+      - "8084:8080"
+
+
+      
