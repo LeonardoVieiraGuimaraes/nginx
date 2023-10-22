@@ -1,3 +1,8 @@
 load balancer
 
 proxy reverso
+
+
+docker-compose up -d  --- criando os contenes docker
+
+docker versino --verifica a versão
