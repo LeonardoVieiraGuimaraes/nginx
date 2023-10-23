@@ -6,3 +6,6 @@ proxy reverso
 docker-compose up -d  --- criando os contenes docker
 
 docker versino --verifica a versão
+
+
+docker container ls --ver lista de container
