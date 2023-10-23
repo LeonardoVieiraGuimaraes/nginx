@@ -2,6 +2,13 @@ load balancer
 
 proxy reverso
 
+https://nip.io/
+
+https://www.docker.com/
+
+https://www.nginx.com/
+
+
 
 docker-compose up -d  --- criando os contenes docker
 
@@ -9,3 +16,9 @@ docker versino --verifica a versão
 
 
 docker container ls --ver lista de container
+
+docker container ls -a  --ver as imagens
+
+docker logs image 
+
+docker-compose down  -- remove
