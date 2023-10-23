@@ -22,3 +22,6 @@ docker container ls -a  --ver as imagens
 docker logs image 
 
 docker-compose down  -- remove
+
+
+https://nginxproxymanager.com/
