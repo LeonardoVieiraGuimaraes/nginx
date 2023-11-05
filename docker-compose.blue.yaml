@@ -1,0 +1,15 @@
+version: '3.8'
+
+networks:
+  nginx_net:
+    driver: bridge
+
+services:
+  webcolorblue:
+      image: fabricioveronez/web-color:blue
+      # ports:
+      #   - 8081:80
+      networks:
+        - nginx_net
+
+ 
